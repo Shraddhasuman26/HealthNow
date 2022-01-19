@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="485.0" prefWidth="630.0" style="-fx-background-color: #274e13; -fx-border-width: 5; -fx-border-color: #afc3a7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employees.HealthblogsController">
+   <children>
+      <Label layoutX="176.0" layoutY="27.0" text="HEALTH BLOGS" textFill="#afc3a7">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="47.0" layoutY="90.0" prefHeight="93.0" prefWidth="525.0" style="-fx-background-color: #afc3a7;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ROLE OF MUSIC IN RELEIVING ANXIETY" textAlignment="CENTER" wrappingWidth="309.4700622558594">
+               <font>
+                  <Font name="Bookman Old Style" size="15.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Music has the power to calm your ‘nerves’ and make your body feel good. Music affects your brain. It is a useful tool for anxiety disorder and providing relief from various forms of depression. In several ways , science has shown that listening to music can activate certain areas of the brain; thus, improving the way people behave, think, and feel......" textAlignment="CENTER" wrappingWidth="498.99993896484375" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="47.0" layoutY="196.0" prefHeight="93.0" prefWidth="525.0" style="-fx-background-color: #afc3a7;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="WHY GOOD SLEEP IS IMPORTANT?" textAlignment="CENTER" wrappingWidth="309.4700622558594">
+               <font>
+                  <Font name="Bookman Old Style" size="15.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sleep deprivation causes your body to release more of the stress hormone cortisol. Among many negative impacts, high levels of cortisol tell your body’s cells to store more fat. Additionally, a lack of sleep affects the release of the hormones which control our appetite. Being overtired also weakens your resolve to stick to a diet. When you’re exhausted you’re more likely to feel justified in “cheating” in order to improve your mood and boost your energy levels with sugary snacks......" textAlignment="CENTER" wrappingWidth="498.99993896484375" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="47.0" layoutY="324.0" prefHeight="93.0" prefWidth="525.0" style="-fx-background-color: #afc3a7;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SIGNIFICANCE OF A PROPER DIET " textAlignment="CENTER" wrappingWidth="309.4700622558594">
+               <font>
+                  <Font name="Bookman Old Style" size="15.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Foods Standards Agency defines a balanced diet as having ‘a variety of foods, basing meals on starchy foods and eating at least 5 portions of fruit and veg a day.’ They also recommend having moderate amounts of fish (2 portions a week one being oily) moderating the amount of protein you have and having small or occasional amounts of food high in fat or sugar..........." textAlignment="CENTER" wrappingWidth="498.99993896484375" />
+         </children>
+      </VBox>
+      <Button fx:id="cancelButton" layoutX="276.0" layoutY="437.0" mnemonicParsing="false" onAction="#cancelButtonAction" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #afc3a7;" text="BACK">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

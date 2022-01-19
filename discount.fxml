@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="344.0" prefWidth="600.0" style="-fx-background-color: #f1c232; -fx-border-width: 5; -fx-border-color: #ffe599;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="employees.DiscountController">
+   <children>
+      <Label layoutX="202.0" layoutY="35.0" text="DISCOUNTS" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="424.0" layoutY="100.0" prefHeight="160.0" prefWidth="138.0" style="-fx-background-color: #ffe599;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CREDIT CARD">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="If you are paying by &quot;CREDIT CARD&quot;, sorry you are not eligible for discounts." textAlignment="CENTER" wrappingWidth="111.58331298828125">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="57.0" layoutY="100.0" prefHeight="160.0" prefWidth="138.0" style="-fx-background-color: #ffe599;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CASH" textAlignment="CENTER" wrappingWidth="111.58331298828125">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="If you are paying by &quot;CASH&quot;, you avail a discount of 7%." textAlignment="CENTER" wrappingWidth="111.58331298828125">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="240.0" layoutY="100.0" prefHeight="160.0" prefWidth="138.0" style="-fx-background-color: #ffe599;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CHEQUE" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="If you are paying by &quot;CHEQUE&quot;, you avail a discount of 5%." textAlignment="CENTER" wrappingWidth="111.58331298828125">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <Button fx:id="cancelButton" layoutX="283.0" layoutY="283.0" mnemonicParsing="false" onAction="#cancelButtonAction" prefHeight="31.0" prefWidth="63.0" style="-fx-background-color: #ffe599; -fx-border-color: #ffe599;" text="BACK">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
